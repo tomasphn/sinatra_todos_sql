@@ -12,7 +12,7 @@ end
 
 configure(:development) do
   require "sinatra/reloader"
-  also_reload "database_persistence.rb"
+  also_reload "database_perreqsistence.rb"
 end
 
 helpers do
